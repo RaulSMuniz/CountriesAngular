@@ -10,18 +10,50 @@
 }
 #opcoes{
     position: absolute;
-    margin-left: 96.5%;
-    width: 25px;
+    margin-top: 55px;
+    margin-left: 1390px;
+    width: 30px;
     text-align: center;
     padding: 5px;
-    background-color: rgb(202, 202, 202);
-    border-radius: 50px;
+    border-radius: 5px;
     transition: 0.5s;
 }
 #opcoes:hover{
     cursor: pointer;
-    background-color: rgb(170, 170, 170);
+    margin-top: 47.5px;
+    margin-left: 1175px;
+    height: 100vh;
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 0;
+    background-color: rgb(216, 216, 216);
     transition: 0.5s;
+}
+#opcoes:hover #simbolo-menu{
+    display: block;
+    padding: 4px;
+    font-size: 25pt;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+}
+.menu {
+    display: none;
+    list-style: none;
+    text-align: left;
+}
+.menu li {
+    position: relative;
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin: 15px;
+    padding: 15px;
+}
+#theme {
+    width: 170px;
+    background-color: rgb(206, 206, 206);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
 }
 #funcionalidades{
     padding: 10px;
